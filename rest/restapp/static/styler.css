@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #FFFFFF;
+}
+
+.logo-header {
+    background: url('Yamas-Texas.png') no-repeat center center/cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+
+.logo-text h1 {
+    font-family: 'serif';
+    font-size: 5em;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+
+.toolbar {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.toolbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toolbar li {
+    margin: 0 15px;
+}
+
+.toolbar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.toolbar a:hover {
+    text-decoration: underline;
+}
+
+
+.toolbar {
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.promo {
+    background: url('food.png') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: -10px 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.promo h2 {
+    font-size: 2.0em;
+}
+
+.promo h3{
+    font: size 2.5em; 
+}
+
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    gap: 10px;
+}
+
+.info .card {
+    background-color: #194274;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #333(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+    padding: 35px;
+    flex: 1;
+}
+
+.info .card img {
+    width: 100%;
+    height: auto;
+}
+
+.info .card h4 {
+    color:#ffcc00;
+    margin: 10px 0;
+}
+
+.info .card a {
+    color: #FF0000;
+    text-decoration: none;
+}
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.footer-logo img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.footer-line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #333;
+    margin-right: 30px;
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9em;
+    width: 100%;
+    z-index: 1000;
+}
+
+.footer-border{
+    width: 200px;
+    height: 0.5px;
+    background-color: #333;
+    margin: 10px auto 5px auto;
+    border-radius: 2px;
+}
+
+footer p{
+    color:#333
+}
+ 
+footer a {
+      text-decoration: none;
+      color:#FF0000;
+}
